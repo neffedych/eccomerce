@@ -1,0 +1,89 @@
+.hero__section{
+    background: rgb(230, 239, 250);
+}
+
+.hero__section h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 20px 0px;
+    line-height: 3.7rem;
+}
+
+.hero__section p{
+    line-height: 1.8rem;
+}
+
+.buy__btn{
+    border: none;
+    outline: none;
+    padding: .5rem 1.3rem;
+    background: rgb(0, 26, 63);
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1.5rem 0 0 0;
+}
+
+.timer__count{
+    background: rgb(0, 19, 43);
+    height: 300px;
+}
+
+.timer__count img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+
+.store__btn{
+    color: black;
+    background: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:992px){
+    .hero__content h2{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .hero__img img{
+        width: 25rem;
+        height: 20rem;
+    }
+
+    
+    .service__item{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:992px){
+
+    .counter__img{
+        display: none;
+    }
+
+    .count__down-col{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .hero__content h2{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width:576px){
+    .hero__img img{
+        width: 20rem;
+        height: 15rem;
+    } 
+
+
+}

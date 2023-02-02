@@ -1,0 +1,131 @@
+header{
+    width: 100%;
+    height: 70px;
+    line-height: 7px;
+}
+
+.nav__wrapper {
+    padding: 1.5rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.logo h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    list-style: none;
+}
+
+.nav__item a{
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.nav__icons span i{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.nav__icons span img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.mobile__menu{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    display: none;
+}
+
+.nav__active{
+    font-weight: 700 !important;
+}
+
+.fav__icon, .cart__icon{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: -110%;
+    right: -10%;
+    width: 15px;
+    height: 15px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    content: '';
+    background: black;
+    color: #FFF;
+    border-radius: 50% !important;
+    font-size: .6rem !important;
+    font-weight: 600;
+    z-index: 1;
+}
+
+@media only screen and (max-width:768px){
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.502);
+        z-index: 3;
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 6rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 100%;
+        background: #FFF;
+        z-index: 4;
+    }
+    
+    .nav__item{
+        margin: 0 40% 0 0;
+    }
+    .mobile__menu{
+
+        display: block; 
+    }
+}

@@ -1,0 +1,19 @@
+.form__group input{
+    margin: .3rem 0 0 0;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.auth__form{
+    padding: 2rem;
+    margin: 2rem 0 0 0;
+    border-radius: 5px; 
+    background: rgb(234, 234, 234);
+}
+
+.buy__btn{
+    margin: 1rem 0 1rem 0;
+    width: 30%;
+}
