@@ -6,6 +6,7 @@ import logo from '../../assets/images/eco-logo.png';
 import userIcon from '../../assets/images/user-icon.png';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const nav__link = [
   {
@@ -73,7 +74,7 @@ const Header = () => {
                 <i class="ri-shopping-bag-line"></i>
                 <span className="badge">{totalQuantity}</span>
               </span>
-              <span><motion.img whileTap={{scale:1.2}} src={userIcon} alt="userIcon" /></span>
+              <Link to='/signup'><span><motion.img whileTap={{scale:1.2}} src={userIcon} alt="userIcon" /></span></Link>
               <div className="mobile__menu">
               <span onClick={menuToggle}>
                 <i class="ri-menu-line"></i>

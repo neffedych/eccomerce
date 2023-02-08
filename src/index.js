@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import "remixicon/fonts/remixicon.css";
 import "bootstrap/dist/css/bootstrap.css";
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import store from './redux/store';
 import { Provider } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
@@ -14,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Provider store={store}>
     <ToastContainer
       theme="dark"
@@ -26,7 +26,7 @@ root.render(
       <App />
     </Provider>
       
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

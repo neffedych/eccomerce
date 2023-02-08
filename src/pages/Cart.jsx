@@ -53,8 +53,8 @@ const Cart = () => {
             </div>
             <div>
               <div className='checkout__btn'>
-                <button className='buy__btn w-100'><Link to='/checkout'>Checkout</Link></button>
-                <button className='buy__btn w-100 mt-3'><Link to='/shop'>Continue Shopping</Link></button>
+                <Link to='/checkout'><button className='buy__btn w-100'>Checkout</button></Link>
+                <Link to='/shop'><button className='buy__btn w-100 mt-3'>Continue Shopping</button></Link>
               </div>
             </div>
           </Col>

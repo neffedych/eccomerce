@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Helmet from '../components/Helmet/Helmet';
 import { Container, Row, Col, Form, FormGroup } from 'reactstrap';
+import CommonSection from '../components/UI/CommonSection';
 import { Link } from 'react-router-dom';
 import '../styles/login.css'
 
@@ -9,25 +10,13 @@ const Login = () => {
 const [email, setEmail] = useState('');
 const [pass, setPass] = useState('');
 
-  return <Helmet title='Login'>
+  return <Helmet title='Order'>
       <section>
+      <CommonSection title='Your order has been placed!'/>
         <Container>
           <Row>
             <Col lg='6' className='m-auto text-center'>
-              <h3 className='fw-bold fs-4'>Login</h3>
-
-              <Form className='auth__form'>
-                <FormGroup className='form__group'>
-                  <input type="email" placeholder='Enter your email' value={email} onChange={e => setEmail(e.target.value)}/>
-                </FormGroup>
-
-                <FormGroup className='form__group'>
-                  <input type="password" placeholder='Enter your password' value={pass} onChange={e => setPass(e.target.value)}/>
-                </FormGroup>
-
-                <button type='submit' className="buy__btn">Login</button>
-                <p>Don't have an account? {''}<Link to='/signup'>Create an account</Link></p>
-              </Form>
+              <h3 className='mt-5'>Check your email out for more information!</h3>
             </Col>
           </Row>
         </Container>

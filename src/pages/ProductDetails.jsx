@@ -10,7 +10,7 @@ import ProductList from '../components/UI/ProductList';
 import { useDispatch } from 'react-redux';
 import { cartActions } from '../redux/slices/cartSlice';
 import {toast} from 'react-toastify';
-// import { set } from 'immer/dist/internal';
+
 
 const ProductDetails = () => {
 
