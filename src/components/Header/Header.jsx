@@ -54,7 +54,7 @@ const Header = () => {
             </div>
           </div>
             <div className="navigation" ref={menuRef} onClick={menuToggle}>
-              <ul className="menu">
+            { /* <ul className="menu">
                 {
                   nav__link.map((item, index) => (
                   <li className="nav__item" key={index}>
@@ -62,7 +62,7 @@ const Header = () => {
                  </li> 
                 ))
                 }
-              </ul>
+              </ul> */}
             </div>
 
             <div className="nav__icons">
