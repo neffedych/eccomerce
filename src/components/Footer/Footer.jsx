@@ -27,19 +27,19 @@ const Footer = () => {
             </h4>
             <ListGroup>
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Mobile Phones</Link>
+                <Link to='/shop'>Mobile Phones</Link>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Modern Sofa</Link>
+                <Link to='/shop'>Modern Sofa</Link>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Arm Chair</Link>
+                <Link to='/shop'>Arm Chair</Link>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Smart Watches </Link>
+                <Link to='/shop'>Smart Watches </Link>
               </ListGroupItem>
             </ListGroup>
           </div>
@@ -59,11 +59,11 @@ const Footer = () => {
                 </ListGroupItem>
 
                 <ListGroupItem className='ps-0 border-0'>
-                  <Link to='/login'>Login</Link>
+                  <Link to='/signup'>Sign Up</Link>
                 </ListGroupItem>
 
                 <ListGroupItem className='ps-0 border-0'>
-                  <Link to='#'>Privacy Policy </Link>
+                  <Link to='/checkout'>Checkout </Link>
                 </ListGroupItem>
               </ListGroup>
           </div>
