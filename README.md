@@ -11,4 +11,4 @@ What I've learned during this project:
 7. State Management - Redux.
 
 
-Link for the deployed project: https://the-mint-artem-nefedov.netlify.app/
+Link for the deployed project: coming soon.
